@@ -35,8 +35,8 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.7",
     "siteFonts": [],
-    "uniqCompNum": 23,
-    "versionPublish": "4.11.4",
+    "uniqCompNum": 20,
+    "versionPublish": "4.10.3",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "siteUrl": "http://elevadoresdiamante.cl",
@@ -831,7 +831,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pantalla Completa\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Parte superior\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Parte inferior\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Texto\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media a la Izquierda/Derecha\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Tamaño de los Medios\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"55\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#4284df\" selected>\n            <input type=\"video\" title=\"Vídeo de Fondo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Inclinación\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"##6441A5\" condition=\"gradientBg&& bg.type=='color'\">\n\n        <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Superposición de color\" name=\"overlayColor\" value=\"#21b968\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked condition=\"overlay && bg.type !== 'color'\"> -->\n        <input type=\"color\" title=\"Superposición de Color 2\" name=\"overlayColor2\" condition=\"overlay && bg.type !== 'color'\" value=\"#1ec5bf\">\n        \n        <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"media-content\">\n                <div>\n                    <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">\n                    Mantenciones</h1>\n                </div>\n                <div>\n                    <div class=\"mbr-section-text mbr-white pb-3 \">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Para nosotros realizar la mantención adecuada de un ascensor requiere, no sólo de  técnicos calificados, sino de una estructura profesional que pueda asegurar y suministrar un apoyo completo. Contamos con los medios técnicos para desarrollar e implementar los trabajos de mantención preventiva y correctiva de los equipos. El apoyo y la garantía del servicio lo hacemos efectivo gracias a: \n<br>\n<br>•\tPersonal especializado.                                                     \n<br>•\tLogística en transporte y comunicaciones. \n<br>•\tMantención integral.<br><br>Nuestros técnicos están altamente calificados y actualizados con los nuevos adelantos tecnológicos. Ofrecemos mantención a todo tipo de ascensores, siendo de pasajeros, Montacamillas, Montacargas, Rampas móviles, etc. de uso privado o público. &nbsp;<br></p>\n                    </div>\n                </div>\n               \n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-white-outline btn-bgr\" href=\"https://mobirise.com\">Leer más</a>\n                </div>\n            </div>\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/foto-mantenimiento-613x493.jpg\" alt=\"Mobirise\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pantalla Completa\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Parte superior\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Parte inferior\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Texto\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media a la Izquierda/Derecha\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Tamaño de los Medios\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"55\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#4284df\" selected>\n            <input type=\"video\" title=\"Vídeo de Fondo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Inclinación\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"##6441A5\" condition=\"gradientBg&& bg.type=='color'\">\n\n        <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Superposición de color\" name=\"overlayColor\" value=\"#21b968\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked condition=\"overlay && bg.type !== 'color'\"> -->\n        <input type=\"color\" title=\"Superposición de Color 2\" name=\"overlayColor2\" condition=\"overlay && bg.type !== 'color'\" value=\"#1ec5bf\">\n        \n        <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"media-content\">\n                <div>\n                    <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">\n                    Mantenciones</h1>\n                </div>\n                <div>\n                    <div class=\"mbr-section-text mbr-white pb-3 \">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Para nosotros realizar la mantención adecuada de un ascensor requiere, no sólo de  técnicos calificados, sino de una estructura profesional que pueda asegurar y suministrar un apoyo completo. Contamos con los medios técnicos para desarrollar e implementar los trabajos de mantención preventiva y correctiva de los equipos. El apoyo y la garantía del servicio lo hacemos efectivo gracias a: \n<br>\n<br>•\tPersonal especializado.                                                     \n<br>•\tLogística en transporte y comunicaciones. \n<br>•\tMantención integral.<br><br>Nuestros técnicos están altamente calificados y actualizados con los nuevos adelantos tecnológicos. Ofrecemos mantención a todo tipo de ascensores, siendo de pasajeros, montacargas, rampas móviles, etc. de uso privado o público. &nbsp;<br></p>\n                    </div>\n                </div>\n               \n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-white-outline btn-bgr\" href=\"https://mobirise.com\">Leer más</a>\n                </div>\n            </div>\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/foto-mantenimiento-613x493.jpg\" alt=\"Mobirise\" title>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "ruoN8ZNQsu",
           "_anchor": "header2-8",
           "_PHPplaceholders": [],
@@ -998,56 +998,52 @@
         {
           "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 20px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value",
-              "& when (@gradientBg)": {
-                "background": "linear-gradient(90deg, @bg-value, @color2)"
-              }
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".media-content .btn-bgr": {
-              "z-index": "0"
-            },
-            ".mbr-section-text": {
-              "word-break": "break-word"
-            },
-            ".mbr-overlay": {
-              "background": "linear-gradient(90deg, @overlayColor, @overlayColor2)"
-            },
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             ".mbr-figure": {
-              "@media (min-width: 992px)": {
-                "padding-left": "4rem",
-                "& when (@reverseContent)": {
-                  "padding-right": "4rem",
-                  "padding-left": "1rem"
-                }
+              "padding": "0"
+            },
+            ".content-row": {
+              "& when (@bg-type = 'color')": {
+                "background-color": "@bg-value"
               },
-              "@media (max-width: 991px)": {
-                "padding-top": "3rem"
+              "& when (@bg-type = 'image')": {
+                "background-color": "@overlayColor"
+              },
+              ".media-content": {
+                "display": "-webkit-flex",
+                "justify-content": "center",
+                "flex-direction": "column",
+                "-webkit-justify-content": "center",
+                "-webkit-flex-direction": "column",
+                "& when (@bg-type = 'image')": {
+                  "background-image": "url(@bg-value)"
+                },
+                "@media (min-width: 992px)": {
+                  "flex-basis": "50%",
+                  "-webkit-flex-basis": "50%"
+                },
+                ".mbr-overlay": {
+                  "background": "linear-gradient(90deg, @overlayColor, @overlayColor2)"
+                },
+                ".content-block": {
+                  "z-index": "1"
+                }
               }
             },
-            ".mbr-text": {
-              "@media (max-width: 767px)": {
-                "text-align": "center"
-              }
+            "H2": {
+              "color": "#0c57bf"
             },
-            ".media-container-row": {
-              "& when (@reverseContent)": {
-                "-webkit-flex-direction": "row-reverse",
-                "-ms-flex-direction": "row-reverse"
-              }
+            ".testimonial-text": {
+              "color": "#1a032d"
             }
           },
-          "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pantalla Completa\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Parte superior\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Parte inferior\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Texto\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media a la Izquierda/Derecha\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Tamaño de los Medios\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"110\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#9473d2\" selected>\n            <input type=\"video\" title=\"Vídeo de Fondo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Inclinación\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#6c9cdf\" condition=\"gradientBg&& bg.type=='color'\">\n\n        <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Superposición de color\" name=\"overlayColor\" value=\"#21b968\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked condition=\"overlay && bg.type !== 'color'\"> -->\n        <input type=\"color\" title=\"Superposición de Color 2\" name=\"overlayColor2\" condition=\"overlay && bg.type !== 'color'\" value=\"#1ec5bf\">\n        \n        <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\"><b>TRAFIC</b></h1>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">\n                        Diseñado especialmente para ascensores cuyos motores aún funcionan con 1 o 2 velocidades, hasta 1,3 m/s y no requieren de una regulación precisa de su velocidad. Estos equipos se usan principalmente para transporte de carga o bien de personas, con baja capacidad y poco tráfico debido al bajo, aunque razonable “confort de viaje”.\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-white-outline btn-bgr\" href=\"https://mobirise.com\">Leer más</a>\n                </div>\n            </div>\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/foto-productos-589x391.jpg\" alt=\"Mobirise\" title>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rx5lBeUqZx",
-          "_anchor": "header2-k",
+          "_name": "features1",
+          "_customHTML": "<section class=\"features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Parte superior\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n      <input type=\"range\" inline title=\"Parte inferior\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n      <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n      <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubtitle\">\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background2.jpg\" selected>\n          <input type=\"color\" title=\"Color de Fondo\" value=\"#000000\">\n          <input type=\"video\" title=\"Vídeo de Fondo\" value=\"https://www.youtube.com/watch?v=E0Pa8tYo94U\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Superposición de color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"color\" title=\"Superposición de Color 2\" name=\"overlayColor2\" condition=\"overlay && bg.type !== 'color'\" value=\"#6441a5\">\n      <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row content-row\">\n            <div class=\"media-content px-5  mbr-white py-4 col-lg-6\">\n              <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n              </div>\n              <div class=\"content-block\">\n                   <h2 class=\"mbr-section-title mbr-fonts-style pb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>TRAFIC</b></h2>\n                  <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">\nDiseñado especialmente para ascensores cuyos motores aún funcionan con 1 o 2 velocidades, hasta 1,3 m/s y no requieren de una regulación precisa de su velocidad. Estos equipos se usan principalmente para transporte de carga o bien de personas, con baja capacidad y poco tráfico debido al bajo, aunque razonable “confort de viaje”.                </p>\n                <h2 class=\"mbr-section-title mbr-fonts-style pb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>CICLOTRAFIC</b></h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                  Lorem ipsum dolor sit amet\n                </h3>\n                <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">\n                    Diseñado con sistemas de control de velocidades del motor de tracción con variadores de frecuencia vectoriales. Se destacan por tener un excelente “confort de viaje” y tener paradas muy suaves y de gran exactitud. Este sistema se emplea en toda la gama de uso de los ascensores que van desde los montacargas de baja velocidad hasta en edificios residenciales, hospitales, oficinas con velocidades medias y altas y de alto tráfico.\n                </p>\n                  <h2 class=\"mbr-section-title mbr-fonts-style pb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>TRAFICDRIVE</b></h2>\n                  <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">\nCreado para brindar soluciones tecnológicas de avanzada a aquellos ascensores que aún funcionan con motores de corriente continua, aquellos que en una época funcionaron en edificios de mucho tráfico y con velocidades medias y altas, pero con un bajo rendimiento por necesitar de sistemas de generación eléctrica propios. Gracias a este desarrollo hoy pueden funcionar con un rendimiento mucho más alto, equivalente a un consumo de energía de aprox. un 30% del consumo original.              </p></div>\n            </div>\n            <div class=\"mbr-figure col-lg-6\">\n              <img src=\"@PROJECT_PATH@/assets/images/foto-productos-589x391.jpg\" alt title>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_cid": "ruzpXSkr9Y",
+          "_anchor": "features1-j",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1056,56 +1052,14 @@
         {
           "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 20px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value",
-              "& when (@gradientBg)": {
-                "background": "linear-gradient(90deg, @bg-value, @color2)"
-              }
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".media-content .btn-bgr": {
-              "z-index": "0"
-            },
-            ".mbr-section-text": {
-              "word-break": "break-word"
-            },
-            ".mbr-overlay": {
-              "background": "linear-gradient(90deg, @overlayColor, @overlayColor2)"
-            },
-            ".mbr-figure": {
-              "@media (min-width: 992px)": {
-                "padding-left": "4rem",
-                "& when (@reverseContent)": {
-                  "padding-right": "4rem",
-                  "padding-left": "1rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                "padding-top": "3rem"
-              }
-            },
-            ".mbr-text": {
-              "@media (max-width: 767px)": {
-                "text-align": "center"
-              }
-            },
-            ".media-container-row": {
-              "& when (@reverseContent)": {
-                "-webkit-flex-direction": "row-reverse",
-                "-ms-flex-direction": "row-reverse"
-              }
-            }
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
           },
-          "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pantalla Completa\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Parte superior\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Parte inferior\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Texto\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media a la Izquierda/Derecha\" name=\"reverseContent\" checked>\n        <input type=\"range\" inline title=\"Tamaño de los Medios\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#6c9cdf\" selected>\n            <input type=\"video\" title=\"Vídeo de Fondo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Inclinación\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#9473d2\" condition=\"gradientBg&& bg.type=='color'\">\n\n        <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Superposición de color\" name=\"overlayColor\" value=\"#21b968\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked condition=\"overlay && bg.type !== 'color'\"> -->\n        <input type=\"color\" title=\"Superposición de Color 2\" name=\"overlayColor2\" condition=\"overlay && bg.type !== 'color'\" value=\"#1ec5bf\">\n        \n        <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\"><b>CICLOTRAFIC</b></h1>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">\n                        Diseñado con sistemas de control de velocidades del motor de tracción con variadores de frecuencia vectoriales. Se destacan por tener un excelente “confort de viaje” y tener paradas muy suaves y de gran exactitud. Este sistema se emplea en toda la gama de uso de los ascensores que van desde los montacargas de baja velocidad hasta en edificios residenciales, hospitales, oficinas con velocidades medias y altas y de alto tráfico.\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-white-outline btn-bgr\" href=\"https://mobirise.com\">Leer más</a>\n                </div>\n            </div>\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/foto-productos-3-628x472-628x472.jpg\" alt=\"Mobirise\" title>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rx5lMpXGyh",
-          "_anchor": "header2-l",
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Parte superior\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Parte inferior\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">Vea &nbsp;nuestros productos</h2>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rvm0hAx6h8",
+          "_anchor": "content1-h",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1114,60 +1068,164 @@
         {
           "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 20px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value",
-              "& when (@gradientBg)": {
-                "background": "linear-gradient(90deg, @bg-value, @color2)"
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
               }
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".media-content .btn-bgr": {
-              "z-index": "0"
-            },
-            ".mbr-section-text": {
-              "word-break": "break-word"
-            },
-            ".mbr-overlay": {
-              "background": "linear-gradient(90deg, @overlayColor, @overlayColor2)"
-            },
-            ".mbr-figure": {
-              "@media (min-width: 992px)": {
-                "padding-left": "4rem",
-                "& when (@reverseContent)": {
-                  "padding-right": "4rem",
-                  "padding-left": "1rem"
-                }
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
               },
-              "@media (max-width: 991px)": {
-                "padding-top": "3rem"
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
               }
             },
-            ".mbr-text": {
-              "@media (max-width: 767px)": {
-                "text-align": "center"
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
               }
             },
-            ".media-container-row": {
-              "& when (@reverseContent)": {
-                "-webkit-flex-direction": "row-reverse",
-                "-ms-flex-direction": "row-reverse"
-              }
+            "ul": {
+              "font-size": "0"
+            },
+            ".mbr-gallery-filter ul li .btn": {
+              "border": "none",
+              "background-color": "transparent",
+              "color": "@tagsColor",
+              "padding": "0.5rem 1rem 0.6rem",
+              "border-radius": "0",
+              "margin": "0!important",
+              "transition": "padding, border 0s"
+            },
+            ".mbr-gallery-filter ul li.active .btn": {
+              "padding": "0.5rem 1rem 0.5rem",
+              "border-bottom": "2px @tagsColor solid",
+              "border-radius": "0 !important"
+            },
+            ".mbr-gallery-filter ul li": {
+              "padding": "0"
             }
           },
-          "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pantalla Completa\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Parte superior\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Parte inferior\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Texto\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media a la Izquierda/Derecha\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Tamaño de los Medios\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#9473d2\" selected>\n            <input type=\"video\" title=\"Vídeo de Fondo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Inclinación\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#6c9cdf\" condition=\"gradientBg&& bg.type=='color'\">\n\n        <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Superposición de color\" name=\"overlayColor\" value=\"#21b968\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked condition=\"overlay && bg.type !== 'color'\"> -->\n        <input type=\"color\" title=\"Superposición de Color 2\" name=\"overlayColor2\" condition=\"overlay && bg.type !== 'color'\" value=\"#1ec5bf\">\n        \n        <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\"><b>TRAFICDRIVE</b></h1>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">\n                        Creado para brindar soluciones tecnológicas de avanzada a aquellos ascensores que aún funcionan con motores de corriente continua, aquellos que en una época funcionaron en edificios de mucho tráfico y con velocidades medias y altas, pero con un bajo rendimiento por necesitar de sistemas de generación eléctrica propios. Gracias a este desarrollo hoy pueden funcionar con un rendimiento mucho más alto, equivalente a un consumo de energía de aprox. un 30% del consumo original.\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-white-outline btn-bgr\" href=\"https://mobirise.com\">Leer más</a>\n                </div>\n            </div>\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/foto-productos-4-252x200-252x200.jpg\" alt=\"Mobirise\" title>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rx5lN3q9my",
-          "_anchor": "header2-m",
-          "_protectedParams": [],
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Ancho Completo\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Parte superior\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Parte inferior\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Etiquetas de Color\" name=\"tagsColor\" value=\"#4284df\">\n        <input type=\"color\" title=\"Superposición de color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Superposición de Degradado\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Superposición de Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Opacidad de Superposición\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galería\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n    </div>\n</section>",
+          "_cid": "rvlZlBGBJq",
+          "_anchor": "gallery1-g",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/foto-productos-589x391.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/foto-productos-589x391-589x391.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": true
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/foto-productos-2-282x178.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/foto-productos-2-282x178-282x178.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/foto-productos-3-628x472.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/foto-productos-3-628x472-628x472.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              },
+              {
+                "tags": "Animada",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/foto-productos-4-252x200.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/foto-productos-4-252x200-252x200.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              }
+            ]
+          }
         },
         {
           "alias": false,
@@ -1181,17 +1239,12 @@
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
-            },
-            ".texto-quienes-somos": {
-              "line-height": "20px"
             }
           },
           "_name": "header9",
-          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pantalla Completa\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Parte superior\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Parte inferior\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Texto\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Flecha\" name=\"showArrow\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"@PROJECT_PATH@/assets/images/logo-992x558.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#555555\">\n            <input type=\"video\" title=\"Vídeo de Fondo\" value=\"https://www.youtube.com/watch?v=E0Pa8tYo94U\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Superposición de color\" name=\"overlayColor\" value=\"#6441a5\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column mbr-white col-md-10\">\n            <p class=\"mbr-text align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                Quienes Somos</p>\n            <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>\n</b>\n                <div class=\"texto-quienes-somos\">\n                    Elevadores Diamante Spa. nace de la mano de la amplia experiencia de profesionales y técnicos especializados con más de 30 años en el área, experiencia que marcó una tendencia tecnológica importante a nivel internacional a reeditar en Chile para continuar brindando confiabilidad en los servicios de mantención, reparación, modernización y normalización de equipos de elevación, de una gran variedad de marcas en el mercado.&nbsp;\n                </div><br>\n                <div class=\"texto-quienes-somos\">Nuestra empresa está certificada por el MINVU, ROL 13-0239, resolución No. 3434 y en su calidad de PYME nos permite ofrecer un servicio integral de calidad, lo que se traduce en una efectiva y personalizada respuesta, bajo una esmerada atención y vocación de servicio de acuerdo a las necesidades específicas del cliente.<br><div><b><br></b></div></div>\n                </h1>\n        </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pantalla Completa\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Parte superior\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Parte inferior\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Texto\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Flecha\" name=\"showArrow\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"@PROJECT_PATH@/assets/images/logo-992x558.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#555555\">\n            <input type=\"video\" title=\"Vídeo de Fondo\" value=\"https://www.youtube.com/watch?v=E0Pa8tYo94U\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Superposición de color\" name=\"overlayColor\" value=\"#6441a5\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column mbr-white col-md-10\">\n            <p class=\"mbr-text align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                Quienes Somos</p>\n            <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>Elevadores Diamante Spa. nace de la mano de la amplia experiencia de profesionales y técnicos Chileno-Venezolanos que marcaron una tendencia tecnológica importante en Venezuela por más de 30 años, reeditada hoy en la República de Chile para continuar brindando satisfacción garantizada en el servicio de mantención, reparación, repotenciación y modernización de los ascensores. Elevadores Diamante está certificada ante el MINVU bajo la resolución N° 3434. \n</b><div><b>\n</b></div><div><b>Nuestra meta es posicionarnos como una compañía vanguardista en el mercado en base al destacado desempeño de nuestros productos y servicios, para tal fin estamos comprometidos a ofrecerles a nuestros clientes las soluciones más viables tecnológicamente hablando; así mismo contribuimos al avance tecnológico por medio de la implementación eficiente de los últimos desarrollos en el campo de la tecnología de ascensores. \n</b></div><div><b><br></b></div></h1>\n        </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "rupxEpwMJU",
           "_anchor": "header9-f",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
